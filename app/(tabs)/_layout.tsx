@@ -45,6 +45,24 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="tap-match"
+        options={{
+          title: 'Match',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="images" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="sliding-puzzle"
+        options={{
+          title: 'Puzzle',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="extension-puzzle" size={size} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

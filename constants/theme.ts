@@ -40,6 +40,14 @@ export const COLORS = {
     '2048': '#FACC15',
     'empty': 'rgba(255, 255, 255, 0.05)',
   },
+
+  tapMatch: {
+    cardBack: 'rgba(255, 255, 255, 0.1)',
+    cardFront: '#1E293B',
+    border: 'rgba(255, 255, 255, 0.2)',
+    match: '#4ADE80',
+    mismatch: '#F87171',
+  },
 };
 
 export const SIZES = {
